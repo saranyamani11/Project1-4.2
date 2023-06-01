@@ -1,5 +1,5 @@
 resource "azurerm_cosmosdb_account" "db" {
-  name                = "techslate-ade-cosmosdb01"
+  name                = "techslate-ade-cosmosdb"
   location            = var.location
   resource_group_name = var.rg_name
   offer_type          = "Standard"

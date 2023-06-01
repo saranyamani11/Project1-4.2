@@ -21,15 +21,14 @@ variable "tags" {
 
 variable "kv_name" {
   description = ""
-  default = "techslate-ade-kv00001"
+  default = "techslate-ade-kv001"
 }
 
 variable "fun_name" {
   description = ""
-  default = "techslate-function-00001"
+  default = "techslate-function-001"
 }
 
 variable "storage_account_access_key" {
     default = "techslate-function-001"
 }
-
